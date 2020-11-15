@@ -36,6 +36,5 @@ const items = images.map(image => {
 console.log(items);
 imgGallery.append(...items);
 
-// imgGallery.insertAdjacentHTML('beforebegin', images.map(img => `<li><img class='gallery-list-img' src='${img.url}' alt='${img.alt}'></li>`).join(''));
 
 
