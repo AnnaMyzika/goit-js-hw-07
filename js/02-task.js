@@ -29,10 +29,3 @@ const ulList = document.querySelector('#ingredients')
 ulList.append(elem1, elem2, elem3, elem4, elem5, elem6);
 
  console.log(ulList);
-
-// console.log(elem1);
-// console.log(elem2);
-// console.log(elem3);
-// console.log(elem4);
-// console.log(elem5);
-// console.log(elem6);
