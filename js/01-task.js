@@ -1,2 +1,2 @@
 const quantityItem = document.querySelectorAll('.item')
-  .forEach(element => console.log(`Категория: ${element.firstElementChild.textContent}\nКоличество элементов: ${element.querySelectorAll('li').length}`))
+  .forEach(element => console.log(`Категория: ${element.firstElementChild.textContent}\nКоличество элементов: ${element.querySelectorAll('li').length}`));
