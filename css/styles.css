@@ -1,15 +1,15 @@
 /* задача 3 */
 
-/* .galerry-list {
-       list-style-type: none;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-      }
-      .galerry-list-img {
-        margin-bottom: 50px;
-      } */
+.galerry-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galerry-list-img {
+  margin-bottom: 50px;
+}
 
 /* задача 6 */
 

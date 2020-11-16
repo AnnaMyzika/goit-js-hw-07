@@ -17,24 +17,17 @@ const images = [
 ];
 
 const imgGallery = document.querySelector('#gallery');
+
+imgGallery.insertAdjacentHTML(
+  'beforeend',
+  images
+    .map(
+      img =>
+        `<li><img class='gallery-list-img' src='${img.url}' alt='${img.alt}'></li>`
+    )
+    .join('')
+);
 imgGallery.classList.add('galerry-list');
-console.log(imgGallery);
-
-const items = images.map(image => {
-    const imgList = document.createElement('li');
-    const imgEl = document.createElement('img');
-    imgList.classList.add('galerry-list-img');
-    imgEl.src = image.url;
-    imgEl.alt = image.alt;
-    imgEl.width = 1200;
-
-    imgList.append(imgEl);
-
-    return imgList;
-});
-
-console.log(items);
-imgGallery.append(...items);
 
 
 
